@@ -61,7 +61,7 @@ nav {
 }
 
 nav li {
-    font-family: NeueMontreal-Regular;
+    font-family: 'NeueMontreal Regular';
     font-size: 20px;
     display: inline;
     margin: 0 0 0 60px;
@@ -90,7 +90,7 @@ nav a::selection {
 }
 
 .season {
-    font-family: NeueMontreal-Regular;
+    font-family: 'NeueMontreal Regular';
 }
 
 h2 {
