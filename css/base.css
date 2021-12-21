@@ -1,0 +1,9 @@
+:root {
+    --migralight: 'Migra Extralight';
+    --migrabold: 'Migra Extrabold';
+    --neueregular: 'NeueMontreal-Regular';
+
+    --white: rgba(236, 236, 236, 1);
+    --fading-white: rgba(236, 236, 236, 0.55);
+    --black: rgba(22, 22, 22, 1);
+}
