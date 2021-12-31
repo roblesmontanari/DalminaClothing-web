@@ -33,23 +33,23 @@ header {
 }
 
 .headerBox {
+    font-size: 24px;
+    height: 70px;
     position: relative;
     width: 100%;
-    height: 70px;
-    font-size: 24px;
 }
 
 h1 {
     color: var(--white);
+    left: 10%;
     position: relative;
     top: 22px;
-    left: 10%;
 }
 
 h1 a {
+    color: var(--white);
     font-family: var(--migralight);
     text-decoration: none;
-    color: var(--white);
 }
 
 h1 a:hover {
@@ -58,15 +58,15 @@ h1 a:hover {
 }
 
 nav {
-    position: relative;
-    left: 70%;
     bottom: 4px;
+    left: 70%;
+    position: relative;
 }
 
 nav li {
+    display: inline;
     font-family: var(--neueregular);
     font-size: 20px;
-    display: inline;
     margin: 0 0 0 60px;
 }
 
@@ -88,10 +88,10 @@ nav a::selection {
 /* home page */
 
 .mainTitle {
-    font-size: 60px;
-    position: absolute;
     bottom: 460px;
+    font-size: 60px;
     left: 610px;
+    position: absolute;
     text-align: center;
     z-index: 1;
 }
@@ -107,6 +107,7 @@ h2 {
 .collection__type {
     font-family: var(--migralight);
 }
+
 .collection__default {
     font-family: var(--neueregular);
 }
@@ -114,39 +115,65 @@ h2 {
 .collection__from {
     font-family: var(--neueregular);
 }
+
 .collection__dalmina {
     font-family: var(--migralight);
 }
 
 .manicule-icon {
-    font-family: var(--migralight);
-    font-size: 60px;
-    position: absolute;
     bottom: 680px;
     left: 120px;
+    position: absolute;
 }
 
 .homeImage__1 {
-    position: absolute;
-    left: 90px;
     bottom: 30px;
+    left: 90px;
+    position: absolute;
 }
 .homeImage__2 {
-    position: absolute;
-    left: 830px;
     bottom: 115px;
+    left: 830px;
+    position: absolute;
 }
 .homeImage__3 {
+    bottom: 95px;
     position: absolute;
     right: 90px;
-    bottom: 95px;
     z-index: -1;
 }
 
 .star-icon {
+    bottom: 30px;
     font-family: var(--migralight);
     font-size: 40px;
     position: absolute;
-    bottom: 30px;
     right: 90px;
+}
+
+.button__preorder {
+    background-color: rgba(236, 236, 236, 0.1);
+    color: var(--white);
+    font-family: var(--migralight);
+    font-size: 25px;
+    
+    border: none;
+    border-radius: 50%;
+    bottom: 320px;
+    height: 80px;
+    position: absolute;
+    right: 280px;
+    text-align: center;
+    width: 250px;
+}
+
+.button__preorder a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.button__preorder:hover {
+    background-color: rgba(236, 236, 236, 0.2);
+    color: var(--black);
+    transition: .700s;
 }
