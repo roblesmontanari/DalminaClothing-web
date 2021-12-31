@@ -1,19 +1,22 @@
-/**/
+@import url("_base.css");
+@import url("_reset.css");
+
+/* fonts */
 
 @font-face {
     font-family: Migra-Extralight;
-    src: url(/fonts/Migra-Extralight.ttf);
+    src: url(../../fonts/Migra-Extralight.ttf);
 }
 @font-face {
     font-family: Migra-Extrabold;
-    src: url(/fonts/Migra-Extrabold.ttf);
+    src: url(../../fonts/Migra-Extrabold.ttf);
 }
 @font-face {
     font-family: NeueMontreal-Regular;
-    src: url(fonts/NeueMontreal-Regular.otf);
+    src: url(../../fonts/NeueMontreal-Regular.otf);
 }
 
-/**/
+/* navigation bar */
 
 
 html {
@@ -82,7 +85,7 @@ nav a::selection {
     text-decoration: line-through;
 }
 
-/* main page css */
+/* home page */
 
 .mainTitle {
     position: center;
@@ -90,10 +93,24 @@ nav a::selection {
     text-align: center;
 }
 
+h2 {
+    color: var(--white);    
+}
+
 .season {
     font-family: var(--neueregular);
 }
 
-h2 {
-    color: #ECECEC;    
+.collection__type {
+    font-family: var(--migralight);
+}
+.collection__default {
+    font-family: var(--neueregular);
+}
+
+.collection__from {
+    font-family: var(--neueregular);
+}
+.collection__dalmina {
+    font-family: var(--migralight);
 }
