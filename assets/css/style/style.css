@@ -88,9 +88,12 @@ nav a::selection {
 /* home page */
 
 .mainTitle {
-    position: center;
-    font-size: 45px;
+    font-size: 60px;
+    position: absolute;
+    bottom: 460px;
+    left: 610px;
     text-align: center;
+    z-index: 1;
 }
 
 h2 {
@@ -115,6 +118,14 @@ h2 {
     font-family: var(--migralight);
 }
 
+.manicule-icon {
+    font-family: var(--migralight);
+    font-size: 70px;
+    position: absolute;
+    bottom: 680px;
+    left: 120px;
+}
+
 .homeImage__1 {
     position: absolute;
     left: 90px;
@@ -123,11 +134,19 @@ h2 {
 .homeImage__2 {
     position: absolute;
     left: 830px;
-    bottom: 95px;
+    bottom: 115px;
 }
 .homeImage__3 {
     position: absolute;
     right: 90px;
-    bottom: 60px;
+    bottom: 95px;
     z-index: -1;
+}
+
+.star-icon {
+    font-family: var(--migralight);
+    font-size: 40px;
+    position: absolute;
+    bottom: 30px;
+    right: 90px;
 }
