@@ -165,11 +165,7 @@ h2 {
     right: 280px;
     text-align: center;
     width: 250px;
-}
-
-.button__preorder a {
-    color: inherit;
-    text-decoration: none;
+    cursor: pointer;
 }
 
 .button__preorder:hover {
