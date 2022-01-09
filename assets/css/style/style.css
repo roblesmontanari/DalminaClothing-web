@@ -104,20 +104,12 @@ h2 {
     font-family: var(--neueregular);
 }
 
-.collection__type {
+.collection__type, .collection__dalmina {
     font-family: var(--migralight);
 }
 
-.collection__default {
+.collection__default, .collection__from {
     font-family: var(--neueregular);
-}
-
-.collection__from {
-    font-family: var(--neueregular);
-}
-
-.collection__dalmina {
-    font-family: var(--migralight);
 }
 
 .manicule-icon {
